@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Facial Tools</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+  
+  body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #535252;
+  }
+
+    .navbar {
+	margin-bottom: 0;
+    border-radius: 0;
+    font-family: Perpetua, sans-serif;
+    background-color: #ffe0e0;
+    font-size: 15px !important;
+    letter-spacing: 4px;
+    opacity: 1;
+	}
+	
+	.navbar li a, .navbar .navbar-brand { 
+    color: #443050 !important;
+	}
+	
+	.navbar-nav li a:hover {
+    color: #fff !important;
+	background-color: #f59897 !important;
+  }
+	.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #ff8398 !important;
+	}
+    
+   footer {
+      background-color: #ffe0e0;
+      padding: 25px;
+    }
+  
+  #navbar a:hover {
+  background-color: #ddd;
+  color: black;}
+  
+  p.ex1 {
+padding: 0px 0px 10px 0px
+}
+
+p.ex4 {
+padding: 15px
+}
+
+h3.ex2 {
+  padding: 10px 0px 0px 0px; 
+  text-align: left;
+}
+  
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.ex5 {
+padding: 10px
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+
+}
+
+.tabcontainer {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .tabimage {
+      }
+      .tabtext {
+        padding-left: 20px;
+      }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: #80bc83 !important;
+  }
+
+
+  
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div id="navbar" class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+		<li class="active"><a href="tools.html">Tools</a></li>
+        <li><a href="procedures.html">Procedures</a></li>
+        <li><a href="resources.html">Useful Resources</a></li>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <img src="tools1.jpg" alt="Tools" width="1000" height="200">
+</div>
+
+ 
+ 
+<div id="facialtools" class="container text-center">
+  <h3>Facial Tools</h3>
+  <p>Introducing the basic tools, because it is impossible to own everything.</p>
+  <img src="facialtools.jpg" alt="Facial Tools" width="65%" height="65%">
+  <p class="ex1">Over the last few years, face and body devices have become more accessible—and even more effective than your in-office treatment. From laser to microcurrent technology and contouring gadgets, devices are changing the way we treat our skin and body. </p>
+  <p> Click on the images to learn more about each tool!</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="ex4"><strong>Facial Steamer</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="facialsteamer.jpg" class="img-rectangle" alt="Facial Steamer"  width="105%">
+	</a>
+      <div id="demo" class="collapse">
+        <p class="ex1">Facial steamers are used at the start of the treatment to enlarge pores for easy extraction.</p>
+	  </div>  
+    </div>
+    <div class="col-sm-4">
+      <p class="ex4"><strong>Plastic Bowls</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="plasticbowl.jpg" class="img-rectangle" alt="Plastic Bowl"  width="93%">
+      </a>
+      <div id="demo2" class="collapse">
+		<p class="ex1">There are too many serums and treatment products to hold, you'll definitely need these bowls. Make sure they're clean!</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="ex4"><strong>Tweezer</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="tweezer.jpg" class="img-rectangle" alt="Tweezer"  width="100%">
+      </a>
+      <div id="demo3" class="collapse">
+        <p class="ex1"> They are mainly used for hair removal on the eyebrow and lip area.</p>
+      </div>
+    </div>
+  <p class="ex4">.</p><br>
+  </div>
+  <div class="row">
+	<div class="col-sm-4">
+      <p class="ex4"><strong>Slanted spatula</strong></p><br>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="spatula.jpg" class="img-rectangle" alt="Slanted Spatula" width="100%">
+      </a>
+      <div id="demo4" class="collapse">
+        <p class="ex1"> Slanted spatulas are used for application of mask on the skin, to ensure an even spread.</p>
+      </div>
+	  </div>
+	<div class="col-sm-4">
+      <p class="ex4"><strong>Cream spatula</strong></p><br>
+      <a href="#demo5" data-toggle="collapse">
+        <img src="creamspatula.jpg" class="img-rectangle" alt="Cream Spatula" width="100%">
+      </a>
+      <div id="demo5" class="collapse">
+        <p class="ex1"> Cream spatulas are smaller than slanted ones, and used for hygienic transfer of product for container to bowls.</p>
+      </div>
+	  </div>
+	  <div class="col-sm-4">
+      <p class="ex4"><strong>Pimple Kit</strong></p><br>
+      <a href="#demo6" data-toggle="collapse">
+        <img src="pimplekit.jpg" class="img-rectangle" alt="Pimple Kit"  width="100%">
+      </a>
+      <div id="demo6" class="collapse">
+        <p class="ex1"> Perhaps the most important tool, the pimple/blackhead extractor comes in various shapes and sizes.</p>
+      </div>
+    </div>
+   </div>
+</div>
+	
+	<hr>
+	<div id="Facial Products" class="container text-center">
+	<h3> Facial Products</h3>
+	<p>Having a stellar regime doesn’t necessarily always mean a 10 complicated step routine (although if you do that, bravo) it’s mainly about getting the basics sorted like your cleanser, moisturiser and SPF, then adding in your serums for your specific skin concerns and extras like masks and treatments for regular skin upkeep.</p>
+		
+<div class="tab"  style="background-color:#ffe0e0;">
+  <button class="tablinks" onclick="openTab(event, 'cleanser')" id="defaultOpen" >Cleanser</button>
+  <button class="tablinks" onclick="openTab(event, 'exfoliator')">Exfoliator</button>
+  <button class="tablinks" onclick="openTab(event, 'sheetmask')" >Sheet Mask</button>
+  <button class="tablinks" onclick="openTab(event, 'toner')">Toner</button>
+  <button class="tablinks" onclick="openTab(event, 'moisturizers')" >Moisturizers</button>
+</div>
+
+<div id="cleanser"  class="tabcontent" ;">
+  <h3>Cleanser</h3>
+	<p>	Cleansing is the first step of any solid skin-care routine, so it’s important to find a cleanser that knows what it’s doing, especially if you want to set the rest of your products up for success.</p>
+	<img src="cleanser1.jpg" class="img-left" alt="Cetaphil"  width="50%">
+</div>
+
+<div id="exfoliator" class="tabcontent">
+  <h3>Exfoliator</h3>
+	<p>	There are two kinds of exfoliators. Physical ones slough off dead skin cells using teeny-tiny grains or granules of some type, while chemical ones do it using face acids. Both will give you softer skin, lighten acne scars, and improve skin texture without making you red or creating wrinkles in the process. </p> 
+	<img src="exfoliator.jpg" class="img-left" alt="Exfoliator"  width="50%">
+	</div>
+
+<div id="sheetmask" class="tabcontent">
+  <h3>Sheet Mask</h3>
+	<p>	Face masks are the ultimate treat for your skin, and sheet masks are having a moment right now, too. “Sheet masks are essentially thin sheets made of paper, cloth, or gel saturated in serum, which usually contains moisturizers and extracts, explains Birnur Aral, Ph.D., Director of the Beauty Lab at the Good Housekeeping Institute. They’re an easy way to get a quick hydration boost in a short amount of time.</p>
+	<img src="sheetmask.png" class="img-left" alt="Sheet Mask"  width="50%">
+</div>
+
+<div id="toner" class="tabcontent">
+  <h3>Toner</h3>
+	<p>	Skin-care products from Korea have helped completely changed the toner game. "Hydration is the foundation of a great K-beauty routine, and astringent toners that clarify the skin aren't as popular in Korea," Sarah Lee, the co-founder of Glow Recipe tells Allure. "The idea is to thoroughly cleanse and clarify via your double cleanse, then use a toner as the first leave-on step that hydrates and treats."</p> 
+	<img src="toner.gif" class="img-left" alt="Toner"  width="50%">
+</div>
+
+<div id="moisturizers" class="tabcontent">
+  <h3>Moisturizers</h3>
+	<p>Applying a face moisturizer daily is one of the number one keys to healthy, glowing skin no matter what the season, your age, or skin type. Moisturizers are emulsions of oil and water (plus other ingredients for nourishing, treatment, and preserving) that help replenish hydration, keeping moisture in skin and dryness out.</p>
+	<img src="moisturizer.png" class="img-left" alt="Moisturizer"  width="50%">
+</div>
+</div>
+<script>
+var mybutton = document.getElementById("myBtn");
+var navbar = document.getElementById("navbar");
+/*
+window.onload = function(){
+	magnify("myimage", 2);
+	showSlides()
+};*/
+window.onscroll = function() {scrollFunction()};
+
+document.getElementById("defaultOpen").click()
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+var mybutton = document.getElementById("myBtn");
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } 
+  else {
+    mybutton.style.display = "none";
+  }
+}
+</script>
+</div>
+	
+	
+<footer class="text-center">
+  <a class="up-arrow" href="tools.html" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Chelsea's Assignment 2 </p> 
+</footer>
+
+</body>
+</html> 
